@@ -1,5 +1,1 @@
-$ mkdir config
-$ touch config/.placeholder
-$ git add config/.placeholder
-$ git commit -m "Introduction to Transforming Data in Power BI"
-$ git push origin main
+
