@@ -52,3 +52,25 @@ Once identified, remove these duplicate rows from the dataset.
 ## Step 10: Apply the data transformations
 Once you have completed all the above data cleaning steps, select the Close & Apply button.
 By completing this action, you can apply your transformations and update the dataset.
+
+# Activity
+Apply a pivot
+In this activity, you will convert an Adventure Works Excel file called Product-Color Model.xlsx  that includes Product ID, Color, and Model data. You need to present the product count per color in a tabular format. To do this, you need to import the Excel data first and then pivot columns by using aggregate functions. Follow the steps below to apply a pivot in Power BI.
+
+## Step 1: Select the data source type
+
+## Step 2: Import Excel data
+Import the Excel data to add the Product-Color Model query to the Queries pane. 
+Observe the 3 columns in the table: Product Name, Color and Model. 
+Remove the Product Name column. 
+
+## Step 3: Pivot columns
+To pivot the table columns, select the Product-Color Model query on the left menu. 
+Select the Transform ribbon tab, followed by Pivot Column.
+On the Pivot Column window that displays, select the Color column in the query and keep the value in Values column dropdown list. 
+Expand the Advanced options and select option Count (All) from the Aggregate Value Function dropdown list, and then select OK. 
+
+## Step 4: Examine the changes
+By applying the Pivot Column, you change the way the data is organized. All distinct color values are converted to the column headers. There is just one row in the table, where every column has a matching count of that category in the previous rows. You can use this data to visualize in reports or dashboards, primarily in pie chart reports.
+
+
